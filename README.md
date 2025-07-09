@@ -19,7 +19,7 @@ streamlit run st_main.py --theme.primaryColor "#165dff"
 
    用户可直接与本地大语言模型（如 Ollama、Xinference 等平台的模型）进行自然语言交互，支持多轮历史对话管理、温度调节、模型切换等功能。使用 `streaming` 流式输出方式，实现类 ChatGPT 的交互体验。
 
-   ![chat](chatchat\img\chat.png)
+   ![chat](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/chat.png)
 
 2. RAG对话模块
 
@@ -27,21 +27,21 @@ streamlit run st_main.py --theme.primaryColor "#165dff"
 
    创建知识库，并上传知识库的md文件
 
-   ![知识库管理](chatchat\img\知识库管理.png)
+   ![知识库管理](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/知识库管理.png)
 
    在RAG对话模块选择你要使用的数据库后，即可让模型基于知识库进行RAG对话。
 
-   ![RAG对话](chatchat\img\RAG对话.png)
+   ![RAG对话](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/RAG对话.png)
 
 3. Agent对话模块
 
    基于工具调用机制，构建可自主调用外部工具（如文献检索、网络搜索）的智能 Agent，对多步任务进行自主规划与执行。支持与大模型配合，通过 tool calling 接口实现自动决策与任务完成，是构建多工具组合 AI Agent 的原型场景。
 
-   ![AgentChat](chatchat\img\AgentChat.png)
+   ![AgentChat](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/AgentChat.png)
 
    - 天气查询
 
-     ![天气查询](chatchat\img\天气查询.png)
+     ![天气查询](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/天气查询.png)
 
    - Duckduckgo搜索
 
@@ -49,10 +49,10 @@ streamlit run st_main.py --theme.primaryColor "#165dff"
 
    - Arxiv搜索
 
-     ![image-20250709170852312](chatchat\img\Arxiv搜索.png)
+     ![image-20250709170852312](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/Arxiv搜索.png)
 
    - Wikipedia搜索
 
    - 今日AI论文查询
 
-     ![image-20250709171955109](~\chatchat\img\今日论文查询.png)
+     ![image-20250709171955109](https://github.com/AIBCCC/ChatAgent/blob/main/chatchat/img/今日AI论文查询.png)
